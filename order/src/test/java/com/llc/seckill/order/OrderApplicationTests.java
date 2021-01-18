@@ -1,10 +1,10 @@
-package com.seckill.activity;
+package com.llc.seckill.order;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ActivityApplicationTests {
+class OrderApplicationTests {
 
     @Test
     void contextLoads() {

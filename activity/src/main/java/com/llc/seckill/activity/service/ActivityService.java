@@ -15,6 +15,7 @@ import java.util.Map;
 
 @Service
 public class ActivityService {
+
     @Resource
     private ActivityRepository activityRepository;
 
@@ -64,5 +65,4 @@ public class ActivityService {
         resultMap.put("commodityDesc", seckillCommodity.getCommodityDesc());
         return resultMap;
     }
-
 }
